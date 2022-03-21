@@ -1,0 +1,158 @@
+#portada{
+	position: relative;
+    background-image:  url('/img/santacruz3.2.jpg') !important;
+    height: 500px;
+   	background-size: cover;
+   	background-repeat: no-repeat;
+   	background-position: center;
+}
+.caja-busqueda{
+	overflow: visible;
+}
+.texto-central{
+	position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #000;
+	border-color: rgba(0,0,0,.5);
+	
+}
+.busqueda-select{
+	float: left;
+	border-top: 1px solid #ccc;
+}
+@media (max-width: 600px){
+	.texto-central{
+		width: 90%;
+	}
+	.busqueda-select{
+		width: 100%;
+	}
+}
+@media (min-width: 600.1px){
+	.texto-central{
+		width: 80%;
+	}
+	.busqueda-select{
+		width: 50%;
+	}
+}
+@media (min-width: 900.1px){
+	.texto-central{
+		width: 70%;
+	}
+}
+	
+.caja_seleccion{
+	background: #fff;
+	overflow: visible;
+	width: 50% !important;
+	float: left;
+	padding-left: 10px;
+	border-right: 1px solid #ccc;
+	position: relative;
+}
+.caja_busqueda{
+	background: #fff;
+	overflow: visible;
+	width: 100% !important;
+	float: left;
+	padding-left: 10px;
+	border-right: 1px solid #ccc;
+}
+.seleccionador{
+	background: #fff;
+	font-size: 18px;
+	padding: 5px;
+	border: none;
+	height: 45px;
+	color: #555;
+
+	cursor: pointer;
+	-webkit-border-radius: 0;
+	-webkit-box-shadow: none;
+	-webkit-appearance: none;
+	-moz-border-radius: 0;
+	-moz-box-shadow: none;
+	-moz-appearance: none;
+	border-radius: 0;
+	box-shadow: none;
+	appearance: none;
+	width: 100%;
+}
+.boton_busqueda{
+	background: #fff;
+	font-size: 16px;
+	
+	border: none;
+	height: 45px;
+	color: #555;
+	border-left: 1px solid #ccc;
+	border-radius: 0px;
+	padding-left: 10px;
+}
+.boton_busqueda:hover{
+	background: #fff !important;
+	color: #000;
+}
+.imagen_portada{
+	height: 170px !important;
+	overflow: hidden;
+	text-align: center;
+}
+.icono{
+	color: #555;
+	position: absolute;
+	top: 13px;
+	right: 5px;
+	z-index: 10000;
+	font-size: 0.8em !important;
+	opacity: 0.9;
+	pointer-events: none;
+}
+.cuadro_precio{
+	position: absolute;
+	z-index: 10;
+	top: 20px;
+	right: -5px;
+	background-color: #4e2963;
+	color: white;
+	font-weight: 700;
+}
+.link{
+	text-decoration: none;
+	color: inherit;
+}
+.link:hover{
+	color: #4e2963;
+}
+.anuncio-item{
+	border: 1px solid #ccc;
+	display: block;
+}
+.anuncio-imagen{
+	overflow-y: hidden;
+	text-align: center;
+}
+
+@media(max-width: 767px){
+	.anuncio-imagen{
+		height: 200px;
+	}
+}
+
+.anuncio-descripcion{
+	height: 3em;
+	overflow: hidden;
+}
+
+/*PERSONALIZACION DE TABS*/
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+	background-color: #4e2963;
+	color: white; 
+}
+.nav-tabs .nav-link{
+	color: #4e2963;
+}
+

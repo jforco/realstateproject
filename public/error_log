@@ -1,0 +1,9 @@
+[16-Sep-2021 10:35:12 America/La_Paz] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home2/teclu912/app/Http/Controllers/User/AnuncioController.php on line 440
+[16-Sep-2021 10:41:08 America/La_Paz] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400560128 bytes) in /home2/teclu912/app/Http/Controllers/User/AnuncioController.php on line 440
+[16-Sep-2021 10:45:23 America/La_Paz] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400560128 bytes) in /home2/teclu912/app/Http/Controllers/User/AnuncioController.php on line 440
+[16-Sep-2021 10:48:00 America/La_Paz] PHP Fatal error:  Out of memory (allocated 417333248) (tried to allocate 400560128 bytes) in /home2/teclu912/app/Http/Controllers/User/AnuncioController.php on line 440
+[16-Sep-2021 10:52:55 America/La_Paz] PHP Fatal error:  Out of memory (allocated 417333248) (tried to allocate 400560128 bytes) in /home2/teclu912/app/Http/Controllers/User/AnuncioController.php on line 440
+[16-Sep-2021 10:59:07 America/La_Paz] PHP Fatal error:  Out of memory (allocated 417333248) (tried to allocate 400560128 bytes) in /home2/teclu912/app/Http/Controllers/User/AnuncioController.php on line 440
+[16-Sep-2021 11:00:22 America/La_Paz] PHP Fatal error:  Out of memory (allocated 417333248) (tried to allocate 400560128 bytes) in /home2/teclu912/app/Http/Controllers/User/AnuncioController.php on line 440
+[16-Sep-2021 11:03:39 America/La_Paz] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home2/teclu912/app/Http/Controllers/User/AnuncioController.php on line 440
+[16-Sep-2021 13:49:02 America/La_Paz] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home2/teclu912/app/Http/Controllers/User/AnuncioController.php on line 441
